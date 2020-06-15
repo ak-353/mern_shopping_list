@@ -4,7 +4,7 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import uuid from 'uuid';
 import { connect } from 'react-redux';
 import { getItems } from '../actions/itemActions';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 
