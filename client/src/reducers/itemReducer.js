@@ -1,4 +1,4 @@
-import uuid from 'uuid';
+import { v1 as uuid } from 'uuid';
 import { GET_ITEMS, ADD_ITEM, DELETE_ITEM } from '../actions/types';
 
 const initialState = {
@@ -6,7 +6,7 @@ const initialState = {
         {id: uuid(), name: 'Eggs'},
         {id: uuid(), name: 'Milk'},
         {id: uuid(), name: 'Steak'},
-        {id: uuid(), name: 'Water'},
+        {id: uuid(), name: 'Cold'},
     ]
 };
 
